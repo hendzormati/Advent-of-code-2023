@@ -12,10 +12,10 @@ for(int i=0;i<q;i++)
     int l=0,r=0;
     for(int j=0;j<s.size();j++)
     {
-        if(s[j]>='0' && s[j]<='9')
+       if(isdigit(s[j]))
         {
-            if(l==0){l=(s[j]-48)*10;r=(s[j]-48);}
-            else r=(s[j]-48);
+            if(l==0){l=(s[j]-'0')*10;r=(s[j]-'0');}
+            else r=(s[j]-'0');
         }
     }
     sum+=l+r;
