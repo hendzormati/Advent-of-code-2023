@@ -16,7 +16,6 @@ bool present(pair<int,int> S,pair<int,int> val, int n)
          return true;
     return false;
 }
-bool present(int i) { return i; }
 int main() {
 
 int q;
