@@ -19,7 +19,7 @@ For more information, visit the [Advent of Code website](https://adventofcode.co
 ## Solutions
 
 - **Day 1:**
-  - [day1.cpp](day1.cpp)
+  - [Part 1-2](day1.cpp)
 - **Day 2:**
   - [Part 1](day2part1.cpp)
   - [Part 2](day2part2.cpp)
